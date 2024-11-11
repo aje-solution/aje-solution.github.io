@@ -17,10 +17,10 @@
       // === logo change
       if (ud_header.classList.contains("sticky")) {
         document.querySelector(".header-logo").src = "assets/images/logo tanpa nama.png"
-        document.getElementById("text-logo").className = "text-black tracking-wider text-xl w-full font-bold"
+        document.getElementById("text-logo").className = "text-black dark:text-white tracking-wider text-xl md:text-lg lg:text-lg w-full font-bold"
       } else {
         document.querySelector(".header-logo").src = "assets/images/logo tanpa nama.png"
-        document.getElementById("text-logo").className = "text-white tracking-wider text-xl w-full font-bold"
+        document.getElementById("text-logo").className = "text-white tracking-wider text-xl md:text-lg lg:text-lg w-full font-bold"
       }
     }
 
