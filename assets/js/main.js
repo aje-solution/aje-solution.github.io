@@ -13,24 +13,24 @@
       ud_header.classList.remove("sticky");
     }
 
-    if(logo.length) {
+    if (logo.length) {
       // === logo change
       if (ud_header.classList.contains("sticky")) {
-        document.querySelector(".header-logo").src =
-          "assets/images/logo/logo.svg"
+        document.querySelector(".header-logo").src = "assets/images/logo tanpa nama.png"
+        document.getElementById("text-logo").className = "text-black tracking-wider text-xl w-full font-bold"
       } else {
-        document.querySelector(".header-logo").src =
-          "assets/images/logo/logo-white.svg"
+        document.querySelector(".header-logo").src = "assets/images/logo tanpa nama.png"
+        document.getElementById("text-logo").className = "text-white tracking-wider text-xl w-full font-bold"
       }
     }
 
     if (document.documentElement.classList.contains("dark")) {
-      if(logo.length) {
+      if (logo.length) {
         // === logo change
         if (ud_header.classList.contains("sticky")) {
           document.querySelector(".header-logo").src =
-            "assets/images/logo/logo-white.svg"
-        } 
+            "assets/images/logo tanpa nama.png"
+        }
       }
     }
 
@@ -118,7 +118,7 @@
     scrollTo(document.documentElement);
   };
 
-    /* ========  themeSwitcher start ========= */
+  /* ========  themeSwitcher start ========= */
 
   // themeSwitcher
   const themeSwitcher = document.getElementById('themeSwitcher');
